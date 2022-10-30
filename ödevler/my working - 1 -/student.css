@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.contanier a{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 50px;
+    /*display:inline-block;*/
+    
+   
+    
+}
+img{
+    /* display: inline-block; */
+    width: 400px;
+     height: 400px;     
+} 
+.contanier{
+    margin: 0 auto;
+    /*display: flex;
+    justify-content:flex-end;*/
+    width: 1200px;
+    height: 500px;
+}

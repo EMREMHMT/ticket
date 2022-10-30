@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+img{
+    width: 100%;
+}
+
+/* yukarıdaki sıfırlama modlarını mutlaka yapmam gerekiyor */
+
+header{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.logo{
+   background-image: url(../go-afrika/images/africalogo.png);
+   background-position: center;
+   background-repeat: no-repeat; 
+   height: 100px;
+    width: 130px;
+    background-size: 100px;
+}
+
+.menu{
+    margin-right: 300px;
+    display: flex;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color:#42220c;
+    font-size: 18px;
+    margin-right: 100px;
+    
+}
+
+.menu a:hover{
+    color: #8b4c22e1;
+}
+
+.icon i{
+    font-size: 30px;
+    color:#42220c;
+    margin-right: 30px;
+}
+
+.icon i:hover{
+    color: #8b4c22e1;
+    
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* articcle  */
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+.article{
+    flex-basis: 50%;
+    margin-left: 60px;
+    margin-top: -150px;
+
+} 
+
+.article h1{
+    font-size: 3rem;
+    color: #42220cef;
+}
+
+span{
+    margin-left: 80px;
+    font-size: 7rem;
+    line-height: 70px;
+}
+
+.article a{
+    background-color: #42220c;
+    color: white;
+    border: 2px solid #42220c;
+    padding: 7px 29px;
+    border-radius: 30px;
+    margin-left: 517px;
+
+
+    
+}
+
+.article a:hover{
+    color: #fff;
+    background-color: #683818ec;
+}
+
+img{
+    width: 100%!important;
+}
+
+/* article2 */
+
+.article2{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-top: -100px;
+    margin-bottom: 250px;
+
+
+}
+
+.article2 video{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.article2 img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+
+/* footer */
+
+footer section{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 20px;
+}
+
+.subinfo{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.border{
+    border-top: #42220ca6 1px solid;
+    margin: 0 50px;
+}
+
+.footerlogo{
+    margin: 20px 20px;
+    margin-right: 300px;
+    display: inline;
+
+}
+
+.footerimg{
+    background-image: url(../go-afrika/images/africalogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55px;
+    width: 175px;
+    height: 160px;
+}
+
+.products ,.company,.connect,a{
+    display: block;
+    color: #42220c;
+    font-size: 14px;
+
+
+}
+
+.subinfo h5{
+    font-size: 16px;
+}
+
+.subinfo a:hover{
+        color: #8b4c22e1;
+}
+

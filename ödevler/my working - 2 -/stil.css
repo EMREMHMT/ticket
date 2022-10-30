@@ -1,0 +1,69 @@
+
+/* CSS Document 
+
+.baslik   → Class
+#menu  → ID
+h1         → html etiketi
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+
+.menu{
+	padding-left: 500px;
+	height: 100px;
+	line-height: 100px;
+	background-color: yellow;
+	width: 1000px;
+	margin: -8px auto;  /*sağdan soldan divi ortalarsınız*/
+	text-align: center;
+}
+
+.menu span{
+	background-color: antiquewhite;
+	color:darkblue;
+	width: 100px;
+	display: block;
+	float: left;
+}
+
+
+
+
+footer{
+	height: 250px;
+	position: fixed;	
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: blue;
+	color: snow;
+	padding-top: 40px;
+	font-family: 'Tapestry', cursive;
+	font-size: 20px;
+}
+
+.liste{
+	height: 150px;
+	width: 300px;
+	text-align: left;
+	margin: 0 auto;
+	
+}
+
+.liste ul li { list-style:none; } /* liste içindeki herbir list itemin madde işaretini kare yap*/
+
+
+
+/*
+margin: Kenar boşluğu: birinci(üst-alt) ikinci(sağ-sol)
+padding: İç Kenar boşluğu
+*/
+
+
+
+
+
+
+

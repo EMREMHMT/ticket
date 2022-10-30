@@ -1,0 +1,89 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 10000px;
+}
+
+
+.kutu{
+    width: 100%;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+    
+    
+}
+
+.eleman a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+}
+.eleman a:active{
+    color: gray;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    background-color: lightslategray;
+    display: flex;
+    padding: 25px;
+    justify-content:space-between;
+}
+#hakkımda h2{
+    text-align: center;
+}
+
+.ustegit{
+    position: fixed;
+    bottom: 500px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+} 
+
+a i{
+    color: rgb(30, 30, 82);
+    font-size: 30px;
+}
+
+@media all and (max-width:576px) {
+    .kutu{
+        background-color: lightgray;
+        flex-direction: column !important;
+    }
+    
+}
+.eleman{
+    width: 95%;
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+.eleman:hover{
+    background-color: aquamarine;
+}
+
+.eleman:last-child{
+    border-bottom: none;
+}
+
+@media all and (max-width:365px) {
+    .eleman{
+        width: 85%;
+        
+    }
+}
+
+.containerurunler{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}

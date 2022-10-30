@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Square Peg', cursive;
+    font-size: 25pt;
+}
+.container{
+    max-width: 1000px;
+    max-height: 300px;
+    display: inline-block;
+    justify-content: center;
+    margin: 20px;
+    width: 100px;
+}
+
+dıv {
+    
+}
+
+a:link{
+        color: #81b62b;
+        background-color:white ;
+        border: 2px solid #81b62b;
+        padding: 10px;
+        text-decoration: none;
+}
+a:visited{
+    color: #961460;
+    border:2px #961460 solid;
+}
+a:hover{
+    color:#2dd127 ;
+    border: 2px solid #2dd127;
+
+}
+a:active{
+    color: white;
+    background-color: #27d1c9;
+    border: 2px solid #27d1c9;
+    text-decoration: none;
+}

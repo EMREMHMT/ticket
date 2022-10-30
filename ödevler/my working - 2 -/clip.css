@@ -1,0 +1,65 @@
+
+body{
+    font-family: 'Lobster', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Square Peg', cursive;
+font-size: 30pt;
+}
+.box{
+    padding: 30px;
+    border: 10px dashed black;
+    font-weight: bold ;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url(../icon/çöpkutusu.png);
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+.text{
+    line-height: 150%;
+    column-count: 3;
+    column-rule-style: dotted;
+    column-rule-color: #ccc;
+    column-gap:  80px;
+}
+h3{
+    column-span: all;
+   
+}
+
+p{
+    display: block;
+}
+span{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    margin: 100px;
+    align-items: center;
+}
+i{
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    color:#ccc;
+    border-radius: 50%;
+    height: 100%;
+}
+div{
+    background-color: antiquewhite;
+}
+
+.contanier{
+    display: flex;
+    align-items:center;
+    height: 1500px;
+    justify-content: center;
+    width: 500px;
+
+}

@@ -1,0 +1,500 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+
+    font-family: 'Lobster', cursive;
+font-family: 'MuseoModerno', cursive;
+font-family: 'Raleway', sans-serif;
+
+
+}
+      /* menu ve logo kısmı başlangıç */
+header{
+    display: flex;
+    align-items: center;
+    border-bottom: #8f9ca1 1px solid;
+    margin: 0 30px;
+    max-height: 70px;
+    
+    
+}
+
+.logo{
+    background-image: url(../studiopress-project/images/studıopress.png);
+    background-repeat: no-repeat;
+    height: 85px;
+    width: 400px;
+    background-size: 200px;
+    margin-top: 56px;
+    
+    
+
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   
+}
+
+.menu a:hover{
+    
+        color:#4a99e9;
+        
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: #546e7a;
+    font-size: 15pt;
+    
+}
+
+.sign:hover{
+    background-color:#4a99e9;
+    color:white;
+    line-height: 59px;
+    box-shadow: 5px 10px 18px #7eb9f3;
+}
+
+.press{
+    border: #546e7a 1px solid;
+    padding: 10px;
+    margin-right: -5px;
+}
+
+.press:hover{
+    border: #0066cc 1px solid;
+}
+
+/* main bölümü başlangıç */
+
+main{
+   
+   
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+  
+    color: #263238;
+    margin-top: 50px;
+}
+main span {
+    font-size: 75px;
+    
+}
+main p{
+    font-size: 25px;
+    
+}
+
+section{
+    margin-top: 150px;
+
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box1{
+    color: #263238;
+    height: 400px;
+    width: 600px;
+
+}
+
+.box1 span{
+    font-size: 60px;
+}
+.read{
+    border: #0066cc 1px solid;
+    color: #0066cc;
+    padding: 15px 45px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size: 14pt;
+    font-weight: 500;
+    
+  
+}
+
+
+
+.sign{
+    background-color: #0066cc;
+    color: white;
+    padding: 15px 45px;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 500;
+}
+
+.button{
+
+    line-height: 55px;
+}
+
+.box2{
+    background-image: url(../studiopress-project/images/studiopress-hero-.png);
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 600px;
+}
+/* framewrok */
+
+.framework h1{
+    font-weight: bold;
+    font-size: 60px;
+    
+}
+
+.framework{
+    flex-direction: column;
+    text-align: center;
+    height: 700px;
+    width: 100%;
+    color:#263238;
+    background-color: #c7ced6;
+    
+      
+}
+
+.blocks{
+    flex-direction: row;
+    display: flex;
+    margin-top: 50px;
+    padding: 50px;
+    
+}
+
+.framework h1{
+    margin-bottom: -80px;
+}
+
+.block{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex ;
+    
+}
+
+.pc{
+    background-image: url(../studiopress-project/icons/desktop-solid.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    
+    
+}
+.card{
+    background-image: url(../studiopress-project/icons/kart.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    
+
+}
+
+.genesis{
+    background-image: url(../studiopress-project/icons/chalkboard-user-solid.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    
+
+}
+
+.custom{
+    background-image: url(../studiopress-project/icons/table-cells-large-solid.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    
+
+}
+
+.block a{
+    text-decoration: none;
+    background-color: #0066cc;
+    color: white;
+    padding: 15px 35px;
+    font-size: 14pt;
+    font-weight: bold;
+    
+}
+
+.block a:hover{
+    background-color:#4a99e9;
+    opacity:0.9 ;
+    
+}
+
+.block p{
+    margin-bottom: 50px;
+    margin-right: 15px;
+    font-size: 13pt;
+    
+}
+.seo1{
+    margin: 0 auto;
+    text-align: center;
+    color: #263238;
+    height: 500px;
+    width: 1200px;
+}
+.seo1 h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.seo1 p{
+    font-size: 14pt;
+}
+
+/* profil bölümü */
+
+.profıls{
+    text-align: center;
+    color: #263238;
+}
+.yazar{
+    font-size: 13pt;
+}
+.name{
+    font-weight: bold;
+}
+/* darren bölümü */
+.title{
+    font-weight:100;
+    font-size: 38pt;
+    padding: 50px 0;
+}
+
+.profıl1{
+    margin-top: 50px;
+    display: flex;
+    padding: 20px 250px;
+}
+
+.darren{
+    text-align: left;
+    padding-left: 80px;
+}
+
+/* rebacca bölümü */
+
+.profıl2{
+    margin-top: 50px;
+    display: flex;
+    padding: 20px 250px;
+    flex-direction: row-reverse;
+}
+
+.Rebacca{
+    text-align: left;
+    padding-left: 80px;
+}
+
+/* shay bölümü */
+
+.profıl3{
+    margin-top: 50px;
+    display: flex;
+    padding: 20px 250px;
+    
+}
+
+.shay{
+    text-align: left;
+    padding-left: 80px;
+}
+
+/* anita bölümü */
+.profıl4{
+    margin-top: 50px;
+    display: flex;
+    padding: 20px 250px;
+    flex-direction: row-reverse;
+    
+}
+
+.anita{
+    text-align: left;
+    padding-left: 80px;
+}
+
+/* hero bölümü */
+.hero{
+    align-items: center;
+    display: flex;
+    margin: 150px auto;
+    width: 1200px;
+
+}
+
+.borbottom{
+    border-bottom: #97a6ad 1px solid;
+    opacity: 0.6;
+    margin: 0 50px;
+
+}
+
+/* footer bölümü */
+
+footer{
+    margin: 20px 40px;
+    font-size: 14pt;
+    
+}
+.footerlogo{
+    background-image: url(../studiopress-project/images/studıopress.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+    background-size: 200px;
+    background-position: center;
+    margin-bottom: -20px;
+}
+
+.end{
+    font-size: 18px!important;
+}
+
+.fot{
+    display: flex;
+    justify-content:space-between;
+}
+
+/* products bölümü */
+
+.products{
+    
+    display: flex;
+    flex-direction: column
+}
+
+.products a{
+    text-decoration: none;
+    color: #263238;
+    padding: 5px 0;
+}
+
+.products a:hover{
+    text-decoration: none;
+    color: #5c6b72;
+    opacity: 0.4;
+}
+/* company */
+
+.company{
+    
+    display: flex;
+    flex-direction: column
+}
+
+.company a{
+    text-decoration: none;
+    color: #263238;
+    padding: 5px 0;
+
+
+}
+
+.company a:hover{
+    text-decoration: none;
+    color: #5c6b72;
+    opacity: 0.4;
+}
+
+/* communıty */
+
+.communıty{
+    
+    display: flex;
+    flex-direction: column
+}
+
+.communıty a{
+    text-decoration: none;
+    color: #263238;
+    padding: 5px 0;
+
+
+}
+
+.communıty a:hover{
+    text-decoration: none;
+    color: #5c6b72;
+    opacity: 0.4;
+}
+/* Resources */
+
+.Resources{
+    
+    display: flex;
+    flex-direction: column
+}
+
+.Resources a{
+    color: #263238;
+    text-decoration: none;
+    padding: 5px 0;
+
+}
+
+.Resources a:hover{
+    text-decoration: none;
+    color: #5c6b72;
+    opacity: 0.4;
+}
+/* connect */
+
+.connect{
+    
+    display: flex;
+    flex-direction: column
+}
+
+.connect a{
+    color: #263238;
+    text-decoration: none;
+    padding: 5px 0;
+
+}
+
+.connect a:hover{
+    text-decoration: none;
+    color: #5c6b72;
+    opacity: 0.4;
+
+}
+/* // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    
+    .d-md-block{
+        display:block;
+
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .d-xl-block{
+        display:block;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */

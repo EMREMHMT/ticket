@@ -1,0 +1,89 @@
+/*burası stil dosyasıdır*/
+
+.enUst{
+    height: 2000px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: azure;
+    font-family: "Calibri";
+}
+
+header{
+    height: 200px;
+    background-color: white;
+}
+
+.bolum1{
+    height: 40px;
+    background-color: #debbb5;
+    color: black;
+    font-size: 14px;
+    line-height: 40px; /* Satır yüksekliği satırlar arası boşluk*/
+}
+.bolum1_Sol{
+    width: 1000px;
+    float: left;
+}
+.bolum1_Sag{
+    width: 200px;
+    float: left;
+    letter-spacing: 5px; /*iki karakter arası boşluğu belirler*/
+}
+.logo{
+    padding: 6px 10px;
+    width: 1200px;
+    height: 105px;
+    float: left;
+}
+.logo_Sol{
+    width: 270px;
+    height: 105px;
+    float: left;
+}
+.logo_Sol img{
+    margin: 7px 25px;
+    box-shadow: 5px 4px 20px rgba(255, 192, 203, 0.5);
+    border-radius: 5px 10px 15px 20px; /*dörtgen kenar yuvarlatma*/
+}
+.logo_Orta{
+    float: left;
+    width: 688px;
+    height: 105px;
+    /* background-color: antiquewhite; */
+    text-align: center;
+}
+#txt_arama{
+    margin: 10px;
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    padding-left: 10px;
+    text-align: center;
+    transition: width .4s ease-out; /*geçiş efekti veriyoruz*/
+}
+#txt_arama:focus{
+    width: 650px;
+}
+.logo_Sag{
+    float: left;
+    width: 230px;
+    height: 105px; 
+    /* background-color: aquamarine; */
+}
+.logo_Sag p{
+    padding: 7px 20px;
+    font-size: 15px;
+}
+.logo_Sag input   {
+    padding-left: 10px;
+    margin: 0 20px;
+}
+#btn_Gonder, .logo_Sag input   {
+    background-color:ghostwhite ;
+    border: solid thin gray;
+    height: 25px;
+    border-radius: 3px;
+}
+#btn_Gonder:active, .logo_Sag input:active{
+    background-color: gainsboro;
+}

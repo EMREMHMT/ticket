@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+html,body{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+img{
+    width: 100%;
+}
+
+/* facebook , whatsapp logo ve yazının olduğu kısım */
+.box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    background-color: #debbb5;
+    color: #000000;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+     }
+
+     .box1 a {
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+    
+       }
+
+
+/* logo ve sepete ekleme bölümü */
+
+.box2{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    
+    }
+
+
+input{
+    height: 40px;
+    width: 490px;
+    border: none;
+    text-align: center;
+
+    }
+
+    .search{
+        border: 1px solid #777777;
+     }
+
+
+    .search i{
+        color: #777777;
+        padding: 10px;
+        cursor: pointer;
+        border: none;
+    }
+
+.record, .basket{
+    
+    padding-left: 5px;
+    display: flex;
+}
+.record{
+    
+    display: flex;
+}
+.box2-1{
+    display: flex;
+    margin:5px;
+    
+}
+.menu a{
+        text-decoration: none;
+        color:#000000;     
+        font-weight: bold;
+}
+
+.menu i{
+    color: #333333;
+    padding-left: 5px;
+}
+.menu{
+        background-color: #f2e2df;
+        display: flex;
+        justify-content: space-between;
+        line-height: 60px;
+        height: 60px;
+    }
+
+
+
+.slogan{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+ .slogan h2, h4{
+     display: flex;
+    justify-content: center;
+ }
+
+        /* resimlerin bölümü */
+        .photo1{
+            background-image: url(../hobianna-project/images/k01.png);
+            width: 500px;
+            height: 500px;
+        }
+            
+        
+        photo2a{
+            background-image: url(../hobianna-project/images/k02.png);
+            width: 280px;
+            height: 280px;
+            }
+        
+           .photo2b{
+            background-image: url(../hobianna-project/images/k03.png);
+            width: 280px;
+            height: 280px;
+           }
+           .photo2c{
+            background-image: url(../hobianna-project/images/k04.png);
+            width: 280px;
+            height: 280px;
+           }
+           
+           .photo2d{
+            background-image: url(../hobianna-project/images/k05.png);
+            width: 280px;
+            height: 280px;
+           }
+           .container-photo{
+               display: flex;
+             
+           }
+
+           .photo2{
+               display: flex;
+           }
+        /* courosel bölümü */
+           .swiper {
+            width: 100%;
+            height: 100%;
+            
+          }
+    
+          .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+    
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+          }
+    
+          .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: scale-down;  
+            
+            
+          }
+ 
+         

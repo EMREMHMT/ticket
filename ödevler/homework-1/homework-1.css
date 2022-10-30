@@ -1,0 +1,157 @@
+/*sıfırlama ayarları */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+section{
+    padding: 100px 0;
+}
+
+img{
+    width: 100px;
+    height:auto;
+}
+
+.satir{
+    display: flex;
+    width:80%;
+    margin:auto;
+}
+
+.bg-yesil{
+    background-color: #8ebd57;
+}
+
+/* header start*/
+header{
+    min-height: 80 vh;
+    background: url(gorsel/bg-cimen.png) repeat-x bottom,
+    url(gorsel/bulut-2.png),
+    #1DABB8;;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1DABB8;
+    padding: 2% 10%;
+}
+
+.logo h1{
+    color: #fff;
+    font-size:3.2rem;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    display: block;
+    border: #fff dashed 3px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 1.8rem;
+    color:#fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+border-color:#d8335b;
+color:#d8335b;
+}
+
+#menu{
+    font-size: 3.2rem;
+    color: #fff;
+    display: none;  
+}
+
+header-icerik{
+    display: flex;
+    width: 80%;
+    margin: 50px auto 0 auto;
+}
+.header-sol,.header-sag{
+    flex-basis: 50%;
+}
+
+.header-sol{
+    background-color:#25373d;
+    padding: 40px;
+}
+
+.header-sol p{
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 150%;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.header-sol p span{
+    background-color: #fec606;
+    padding: 5px 10px;
+    color: #25373d;
+}
+
+header input{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+header input[type=text],
+header input[type=tel]{
+    border:solid 3px #FEC606;
+    outline:none;
+}
+ 
+header input[type=text]:focus,
+header input[type=tel]:focus{
+    background-color: #FEC606;
+}
+ 
+header input[type=text]::placeholder,
+header input[type=tel]::placeholder{
+    color:#FEC606;
+}
+ 
+header input[type=submit]{
+    background-color: #FEC606;
+    color:#25373D;
+    border:none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+ 
+header input[type=submit]:hover{
+    outline:solid 3px #FEC606;
+    background-color: #25373D;
+    color:#FEC606;
+}
+ 
+ 
+.header-sag{
+    background: url(gorsel/hot-air-balloon.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center center;
+}

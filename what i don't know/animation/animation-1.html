@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* divi yuvarlak hale getirdiğimiz kısım */
+        .ring{
+            width: 400px;
+            height: 400px;
+            position: relative;
+            background: transparent;
+            border:1px solid #3c3c3c;
+            border-radius: 50%;
+            z-index: -1;
+            box-shadow: 0 0  20px rgba(0, 0, 0, 0.5);
+            padding: 60px 0 0 130px;
+
+        }
+        /* yuvarlak halegelen dive üzerine sarı dönme kısmını eklediğimiz bölüm */
+        .ring::after{
+            content: "";
+            position:absolute;
+            top: -3px;
+            left: -6px;
+            width: 100%;
+            height: 100%;
+            border: 3px solid transparent;
+            border-top: 6px solid #fff12e;
+            border-right: 6px solid #fff12e;
+            z-index: -1;
+            border-radius: 50%;
+            animation: returnCircle 10s linear infinite;
+        }
+        .circle{
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 50%;
+            height: 4px;
+            background-color: transparent;
+            transform-origin: left;
+            animation: return 10s linear infinite;
+            z-index: -1;
+        }
+        .circle::before{
+            content: "";
+            position: absolute;
+            top: 20px;
+            right: -9px;
+            width: 16px;
+            height: 16px;
+            background: #fff12e;
+            z-index: -1;
+            border-radius: 50%;
+            box-shadow: 0 0 20px #fff12e;}
+        @keyframes returnCircle {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+            
+        }
+
+        @keyframes return {
+            0%{
+                transform: rotate(45deg);
+            }
+            100%{
+                transform: rotate(405deg);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="ring">
+        <span class="circle"></span>
+    </div>
+</body>
+</html>

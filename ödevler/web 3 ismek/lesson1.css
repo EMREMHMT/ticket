@@ -1,0 +1,21 @@
+/* 
+@media (min-width: 576px) {  }
+
+@media (max-width: 768px) {  }
+
+@media (min-width: 992px) and (max-width:999) { }
+
+
+
+** üçkullanım şekli var
+class , değer
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px 
+
+
+
+*/

@@ -1,0 +1,16 @@
+Ödev olarak yapmış olduğum projede şöyle bir şeyin hayalini kurdum insanların ;
+çeşitli meslek gruplarında çalışan kişilerin kendi meslekleri
+üzerine başka kişilerin merak ettiği soruları sorması ve bilgi alması 
+üzerine bir şey düşündüm.
+Örneğin genç biri yazılımcı olmak istiyor , mesleği yazan bu kişiye 
+site veya uygulama üzerinden ulaşıp ondan mesleğiyle alakalı merak 
+ettiği şeyleri ve genel sorular soruyor.
+
+sitenin açıklaması;
+
+1.logo yu span etiketlerinden yaptım
+2.öne çıkan meslek gruplarının kategöritemsili resimlerini 
+koydum ve hover olduğunda  translate özelliğiyle hover olduğunu belirginleştirdim.
+3.butonlara aynı şekilde hover verdim
+4.küçük temsili resimlerin opacitylerini düşürdüm hover olduğunda.
+5.footer a temsili bir resimle beraber button ekledim.

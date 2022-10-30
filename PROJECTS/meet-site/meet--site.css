@@ -1,0 +1,311 @@
+/* bu projede sıfırlama ayarlarını body e veriyordum ancak şöyle bir sıkıntı yaşadım img lerimin paddıng ve marginleri inspek ettiğimde hep birbirini eziyordu tamamen kar içerisine oturmadığını gördüm buyuzden bundan sonra * şeklinde sıfırlama ayarı yapacağım. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #fafafa;
+
+}
+
+/* header start */
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 5px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.logo-circle{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    
+}
+
+.circle{
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.logo-circle .circle-1{
+    background-color: #887a9c; 
+    margin-left: 15px;  
+}
+
+.logo-circle .circle-2{
+    background-color: #4f93a6;
+}
+
+.logo h4{
+    font-size: 30px;
+}
+/* header finish */
+
+/* main start */
+
+/* content-1 start */
+.content-1{
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    overflow: hidden;
+}
+
+.profil-photo{
+    display: flex;
+    align-items: center;
+}
+
+.profil-photo img{
+    width: 100%;
+    height: 100%;
+    max-height: 110px;
+    max-width: 110px;
+    border-radius: 50%;
+    padding: 5px;
+    transition: 0.2s;
+}
+.profil-photo img:hover{
+    transform:translateY(-5px) /* dikey eksende yukarı doğru hover olduğunda -5px bir yukarı çıkmasını sağlar . ayıca burada hover geçişinin aniden olması yerine bir yavaşlık katmak istersek transtion kullanırız ve bu durumu yavaşlatırız.*/
+}
+
+.col-2 , .col-5{
+    margin-bottom: 120px;
+}
+
+/* left picture */
+.left-picture{
+    margin-left: -20px;
+}
+/* content title */
+.content-title{
+    text-align: center;
+    margin: 0 50px;
+}
+.content-title h2{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+.content-title p{
+    margin: 30px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(160,154,154);
+}
+
+.content-title .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+.btn .btn-1{
+    color:#fff;
+    background-color: #4f93a6;
+    padding: 10px 25px;
+    margin-right: 20px;
+    border-radius: 35px;
+    opacity: 0.8;
+    letter-spacing: 0.8px;
+    transition: 0.5s;
+
+}
+
+.btn-1 span{
+    color: #a0d1df;
+}
+
+.btn .btn-2{
+    color:#fff;
+    background-color: #887a9c;
+    padding: 10px 25px;
+    margin-right: 20px;
+    border-radius: 35px;
+    opacity: 0.8;
+    letter-spacing: 0.8px;
+    transition: 0.5s;
+}
+
+.btn-2 span{
+    color: #b19fcc;
+    font-weight: 600;
+}
+
+
+.btn-hover:hover{
+    opacity: 1;
+    transform: translateY(-5px);
+}
+
+/* right picture */
+.right-picture{
+    margin-right: -40px;
+}
+/* content-1 finish */
+
+/* reagent start */
+.reagent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 50px 0;
+}
+
+.line{
+    border: 1px solid #ddd;
+    height: 60px;
+}
+
+.line-circle{
+    border: 1px solid #ddd;
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    line-height: 50px;
+    text-align: center;
+    color: #777;
+    font-weight: 800;
+}
+/* reagent finish */
+
+/* content-2 start */
+/* content-photo */
+.content-2-photo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.content-2-photo img{
+    width: 100%;
+    max-width: 200px;
+    margin: 10px 5px;
+    border-radius: 15px;
+}
+.content-2-photo img:hover{
+    opacity: 0.75;
+    transform: translateY();
+}
+/* content-2-text */
+.content-2-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.content-2-text h4{
+    color:#4f93a6;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.content-2-text h2{
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.content-2-text p{
+    font-size: 15px;
+    color: rgb(160,154,154);
+    font-weight: 500;
+}
+
+/* content-2 finish */
+
+/* footer start */
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.fot-picture{
+    width: 100%;
+    height: 300px;
+    background: url(img/footer2.jpg);
+    background-size:cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+
+.fot-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform:(-50%,-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: #599aacb2;
+}
+
+.footer-text p{
+    font-size: 14px;
+    background-color: transparent;
+    color: #fff;
+
+}
+
+.fot-text h4{
+    font-size: 25px;
+    margin: 10px 70px;
+    letter-spacing: 1.2px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.fot-text a{
+    text-decoration: none;
+    padding: 15px 35px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #887a9c;
+    margin: 0 70px 0 70px;
+    border-radius: 35px;
+    font-size: 12px;
+    transition: 0.4s;    
+}
+
+.fot-text a:hover{
+    opacity: 0.6;
+    transform: translateY(-5px);
+}
+  
+/* footer finish */
+
+
+
+
+  
+
+
+

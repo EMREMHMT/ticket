@@ -1,0 +1,332 @@
+/* 0 lama ayarları = reset settings */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+img{ width: 100%; }
+
+a{ text-decoration: none; }
+
+
+/* header settings */
+
+.menubar{
+    font-size: 20px;
+    color: white;
+    background-color:#073f68;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    height: 75px;
+    padding-right: 20px;
+}
+
+.logo{
+    background-image: url(../web-frontend/images/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+    padding: 0 30px;
+    margin-top: -20px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu>a{
+    padding: 10px 15px;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.8s;
+}
+
+.menu>a:hover{
+    background-color: rgba(255, 255, 255, 0.795);
+    color: #073f68;
+}
+
+
+/* main settings */
+
+/* banner settings */
+.banner{
+    position: relative;
+    text-align: center;
+}
+
+img{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+}
+
+.banner-write{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    
+}
+
+.banner-write>h2{
+    color: #fff;
+    font-size: 40px;
+    line-height: 10px;
+   
+}
+
+.border{
+    border-top: rgb(189, 189, 189) 2px solid;
+    margin: 0 290px;
+}
+
+.banner-write>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: #fff 1px solid;
+    transition: 0.50s;
+    line-height: 80px;
+
+
+}
+
+.banner-write>a:hover{
+    background-color: rgba(255, 255, 255, 0.568);
+    padding: 10px 10px;
+
+}
+
+/* content settings */
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin: 30px 10px;
+
+
+}
+
+.view{
+    border: gray 2px solid;
+    background-color: #0740688a;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.view:hover{
+    background-color: #073f68;
+}
+.view>p{
+    text-indent: 30px;
+    text-align: justify;
+    
+}
+
+.html-image{
+    background-image: url(../web-frontend/images/html.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 150px;
+}
+.css-image{
+    background-image: url(../web-frontend/images/css.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 150px;
+}
+.js-image{
+    background-image: url(../web-frontend/images/js.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 150px;
+}
+.php-image{
+    background-image: url(../web-frontend/images/php.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 150px;
+}
+
+/* footer settings */
+
+footer{
+    background-color: rgba(10, 10, 10, 0.952);
+}
+
+/* top info */
+
+.top-info{
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 20px;
+}
+
+.subtitle{
+    width: 300px;
+}
+
+.footer>hr{
+    color: #fff;
+}
+
+/* bottom info */
+.bottom-info{
+    text-align: center;
+}
+.buttom-info>.sosyal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 40px;
+    border-top:1px solid white ;
+}
+.sosyal i{
+    margin: 20px;
+    font-size: 50px;
+}
+.sosyal a{
+    text-decoration: none;  
+}
+
+.sosyal a:nth-child(1):hover{
+    color: blue;
+}
+.sosyal a:nth-child(2):hover{
+    color: aqua;
+}
+.sosyal a:nth-child(3):hover{
+    color: #e1595b;
+}
+.sosyal a:nth-child(4):hover{
+    color:#d8090d;
+}
+.sosyal a:nth-child(5):hover{
+    color:#26e03b;
+}
+
+/* media Queri */
+/* tablet */
+@media screen and (max-device-width:1024px) {
+    .content{
+        flex-wrap: wrap;
+    
+       }
+    .view{
+           flex: 0 0 40%;
+           max-width: 40%;
+           margin-top: 40px;
+       }
+      }
+
+@media screen and (max-device-width:776px) {
+    .bannner{
+            display: none;
+        }
+    .menubar{
+            height: 200px;
+            margin-top: 0;
+        }
+    .menu>a{
+            border: none;
+        }
+    footer{
+            padding-top:30px ;
+            text-align: justify;
+            
+        }
+    .subtitle>h4{
+            text-align: center;
+        }
+        .top-info{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .subtitle{
+            width: 100%;
+            text-align: justify;
+        }
+        .banner-write>h2{
+            font-size: 30px;
+        }
+          }
+
+
+@media screen and (max-device-width:576px) {
+    .content{
+            flex-wrap: wrap;
+            justify-content: center;
+           }
+    .menu{
+               display: flex;
+               flex-direction: column;
+               height: 100px;
+               text-align: center;
+           }
+    .banner,.logo{
+               display: none;
+           }
+    .view{
+               flex: 0 0 90%;
+               max-width: 90%;
+               margin-top: 40px;
+               display: flex;
+           }
+    .top-info{
+               display: block;
+               justify-content: center;
+           }
+    .img{
+               width: 100px;
+           }
+    .view>p{
+               max-width: 50%;
+           }
+    .view>h2{
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .subtitle{
+        width: 100%;
+    }
+   
+          }
+
+
+
+
+/* .logo{
+    background-image: url(../web-frontend/images/galeri.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    background-size: contain;   
+    margin-top: 0;  */
+
+/*    
+   @media screen and (min-device-width:481px) and (max-device-width:720px) {
+    .menubar{
+        background-color: rgb(196, 19, 19);
+    
+       }
+   }  */

@@ -1,0 +1,155 @@
+/* 0 lama ayarı */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 1000px;
+  
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style-type: none;
+}
+/* header bölümü */
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 0 20px;
+    position: fixed;
+    z-index: 99999;  /* burada position fixed yaptımızda görünmedi canlı daancak z-index le görünürlüğünü açık baskın hale getirdik*/
+    width: 100%;
+    height: 80px;
+    transition: all ease 0.8s;
+
+}
+
+header:hover{
+    background-color: #fff;
+}
+
+header:hover .menubar>li>a{
+    color: black;
+}
+
+.logo{
+    max-width: 130px;
+}
+
+.menubar>li{
+    display: inline-block;
+    margin:0 20px;
+}
+
+.menubar>li>a{
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+/* content bölümü */
+.content{
+    height: 100vh; 
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.item{
+    position: relative;
+    transition: all ease 0.8s;
+    width: 100%; /* fotoğrafların yavaşca değişip yakınlaşmasını burayla sağlıyoruz  bir width vermekzorundayız ki ona göre hoverı büyüsün yada küçülsün*/
+
+}
+
+.item:hover{
+    width: 200%;
+}
+
+.item img{
+    width: 100%;
+    height: 100vh;   /* height:100% text göstermiyor - ile 100 vh arasındaki fark */
+    object-fit: cover;
+}
+
+/* .bottom-text{
+   
+    bottom: -50px;
+    padding: 50px 50px 100px;
+    color: #fff;
+    opacity: 0;
+   
+  } 
+   */
+.bottom-text{
+    position: absolute;
+    left: 0;
+    bottom: 100px; /* burada hover a nazaran +50 değer verdim için hover opacity 1 ve bottom 0 olduğundan sanki yukarıdan gelmiş gibi görüncek ancak -50px verseydim o zaman aşağıdan gelmiş gibi görünecekti*/
+    opacity: 0; /* burada text igörünmez kılan opacity dir 0 olunca görünmez 1 olduğunda görünür */
+    transition: all ease 0.5s 0.2s;
+    color: #fff;
+    padding: 100px 50px;
+}
+.item:hover .bottom-text{
+    opacity: 1;
+    bottom: 0;
+}
+
+.text>h5{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+
+}
+
+.fa-asterisk{
+    color: #fff;
+    font-size: 800;
+    letter-spacing: 2px;
+    transition: all 4s;
+}
+.text>a{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 2px;
+
+}
+
+.text:hover .fa-asterisk{
+    transform: rotate(720deg);
+}
+
+/* mega menu */
+.mega-menu{
+    position: absolute;
+    left: 180px;
+    top: 70px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 100px;
+    border-radius: 5px;
+    display: none;
+}
+
+.menubar li:hover .mega-menu{
+    display: block;
+    width: 100%;
+    transition: all ease 0.5s ; 
+}
+.mega-menu ul li{
+    margin: 5px;
+}
+.mega-menu ul li a{
+    color: black;
+}
+.mega-menu ul li a:hover{
+    opacity: 1;
+} 
